@@ -1,4 +1,4 @@
-from htmltext import html_to_markdown, truncate_text
+from src.stackexchange_mcp.htmltext import html_to_markdown, truncate_text
 
 
 def test_code_block_keeps_indentation_and_blank_lines():

@@ -17,7 +17,7 @@ from urllib.parse import quote
 
 import httpx
 
-from errors import (
+from src.stackexchange_mcp.errors import (
     InvalidInput,
     InvalidKey,
     NotFound,
@@ -26,7 +26,7 @@ from errors import (
     StackExchangeError,
     UpstreamError,
 )
-from models import (
+from src.stackexchange_mcp.models import (
     DEFAULT_MAX_BODY_CHARS,
     ErrorSearchResult,
     QuestionDetail,
@@ -37,7 +37,7 @@ from models import (
     TagOverview,
     TagSearchResult,
 )
-from textclean import clean_error_message
+from src.stackexchange_mcp.textclean import clean_error_message
 
 log = logging.getLogger(__name__)
 

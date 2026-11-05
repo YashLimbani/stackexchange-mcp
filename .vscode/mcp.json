@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "stackexchange": {
+      "type": "stdio",
+      "command": "/home/yash/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/home/yash/Desktop/Project/MCP_Server",
+        "run",
+        "server.py"
+      ],
+      "env": { "STACKEXCHANGE_KEY": "${input:se_key}" }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "se_key",
+      "description": "Stack Exchange API key",
+      "password": true
+    }
+  ]
+}

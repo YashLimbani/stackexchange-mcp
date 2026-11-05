@@ -12,8 +12,8 @@ from mcp.server.fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 from pydantic import Field
 
-from client import StackExchangeClient
-from models import (
+from src.stackexchange_mcp.client import StackExchangeClient
+from src.stackexchange_mcp.models import (
     ErrorSearchResult,
     QuestionDetail,
     QuotaStatus,

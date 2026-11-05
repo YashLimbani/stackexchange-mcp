@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "stackexchange": {
+      "type": "stdio",
+      "command": "/home/yash/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/home/yash/Desktop/Project/MCP_Server",
+        "run",
+        "server.py"
+      ],
+      "env": {
+        "STACKEXCHANGE_KEY": "${STACKEXCHANGE_KEY}"
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-from textclean import MAX_QUERY_CHARS, clean_error_message
+from src.stackexchange_mcp.textclean import MAX_QUERY_CHARS, clean_error_message
 
 
 def test_python_traceback_picks_the_final_error_line():

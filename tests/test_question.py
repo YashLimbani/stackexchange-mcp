@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from models import QuestionDetail
+from src.stackexchange_mcp.models import QuestionDetail
 
 SAMPLES = Path(__file__).parent.parent / "samples"
 QUESTION = json.loads((SAMPLES / "question.json").read_text())["items"][0]
