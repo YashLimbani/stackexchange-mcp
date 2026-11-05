@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src.stackexchange_mcp.models import QuestionSummary, QuotaInfo, SearchResult
+from stackexchange_mcp.models import QuestionSummary, QuotaInfo, SearchResult
 
 SAMPLE = json.loads(
     (Path(__file__).parent.parent / "samples" / "search_advanced.json").read_text()

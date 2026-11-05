@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 
 from pydantic import BaseModel
 
-from src.stackexchange_mcp.htmltext import html_to_markdown, truncate_text
+from .htmltext import html_to_markdown, truncate_text
 
 DEFAULT_BASE_URL = "https://stackoverflow.com"
 DEFAULT_MAX_BODY_CHARS = 2000

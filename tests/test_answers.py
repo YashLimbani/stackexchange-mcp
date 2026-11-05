@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src.stackexchange_mcp.models import Answer, top_answers
+from stackexchange_mcp.models import Answer, top_answers
 
 SAMPLE = json.loads(
     (Path(__file__).parent.parent / "samples" / "answers.json").read_text()

@@ -12,8 +12,8 @@ from mcp.server.fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 from pydantic import Field
 
-from src.stackexchange_mcp.client import StackExchangeClient
-from src.stackexchange_mcp.models import (
+from .client import StackExchangeClient
+from .models import (
     ErrorSearchResult,
     QuestionDetail,
     QuotaStatus,
@@ -271,5 +271,10 @@ def tag_primer(tag: str) -> str:
     )
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """Entry point for the `stackexchange-mcp` command."""
     mcp.run()  # stdio transport
+
+
+if __name__ == "__main__":
+    main()

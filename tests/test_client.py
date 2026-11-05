@@ -7,8 +7,8 @@ from pathlib import Path
 import httpx
 import pytest
 
-from src.stackexchange_mcp.client import StackExchangeClient
-from src.stackexchange_mcp.errors import (
+from stackexchange_mcp.client import StackExchangeClient
+from stackexchange_mcp.errors import (
     InvalidInput,
     InvalidKey,
     NotFound,
