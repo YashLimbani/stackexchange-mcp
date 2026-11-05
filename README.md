@@ -193,4 +193,4 @@ Tests need no network: the API is mocked using real saved responses in `samples/
 
 MIT for the code (see [LICENSE](LICENSE)). Stack Exchange content is CC BY-SA; attribute the author and link when you reuse it.
 
-<!-- mcp-name: io.github.<username>/stackexchange-mcp -->
+<!-- mcp-name: io.github.YashLimbani/stackexchange-mcp -->

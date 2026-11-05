@@ -4,6 +4,10 @@
 
 - Add MCP Registry ownership marker to the README.
 
+## [0.1.1] - 2026-11-05
+
+- Add MCP Registry ownership marker to the README.
+
 ## [0.1.0] - Unreleased
 
 First release.

@@ -1,6 +1,6 @@
 [project]
 name = "stackexchange-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP server that lets AI assistants search Stack Overflow and other Stack Exchange sites."
 readme = "README.md"
 license = "MIT"
